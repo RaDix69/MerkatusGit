@@ -81,10 +81,11 @@ if(empty($_POST['producto']) || empty($_POST['descripcion']) || empty($_POST['pr
         <input class="boton" type="submit" name="guardar" value="Guardar">
         <br>
         <br>
-        <button class="con"><a href="consulta.php">Consultar Productos</a></button>
-        </center>
+        
         </form>
         </div>
+            <button class="con"><a href="consulta.php">Consultar Productos</a></button>
+        </center>
         </div>
     </section>
 
