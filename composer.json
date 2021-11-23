@@ -2,7 +2,7 @@
     "name": "MerkatusGit",
     "homepage": "http://merkatus1.clubcoderos.com/",
     "repositories": [
-        { "type": "git", "url": "https://github.com/RaDix69/MerkatusGit" }
+        { "type": "git", "url": "https://github.com/RaDix69/MerkatusGit.git" }
     ],
     "require-all": true
 }
