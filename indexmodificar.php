@@ -81,7 +81,7 @@ return[
     </form>
     
             </div>
-    <button class="con"><a href="../crudProductos/consulta.php">Regresar</a></button>
+    <button class="con"><a href="consulta.php">Regresar</a></button>
     </center>
         </section>
 
