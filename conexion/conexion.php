@@ -1,8 +1,8 @@
 <?php 
 $servidor="localhost";
-$usuario="root";
-$password="";
-$bd="6trim_base";
+$usuario="u991668360_Merkatus";
+$password="Merkatus123";
+$bd="u991668360_Merkatus";
 $conexion=mysqli_connect($servidor,$usuario,$password,$bd) or die(msql_error());
 
 ?>
