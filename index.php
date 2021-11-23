@@ -19,7 +19,7 @@ if(empty($_POST['producto']) || empty($_POST['descripcion']) || empty($_POST['pr
     else{
         $query = "INSERT INTO productos (nombrep,proveedor,id_categoria,Descripcion,Precio,imagen) VALUES ('$producto','$proveedor','$categoria','$descripcion','$precio','$imagen')";
         $resultado = $conexion->query($query);
-        header('location: ../crudProductos/consulta.php');
+        header('location: consulta.php');
     }
     
    
@@ -81,7 +81,7 @@ if(empty($_POST['producto']) || empty($_POST['descripcion']) || empty($_POST['pr
         <input class="boton" type="submit" name="guardar" value="Guardar">
         <br>
         <br>
-        <button class="con"><a href="../crudProductos/consulta.php">Consultar Productos</a></button>
+        <button class="con"><a href="consulta.php">Consultar Productos</a></button>
         </center>
         </form>
         </div>
